@@ -1,71 +1,73 @@
 * {
-	box-sizing: border-box;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	color: black;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: black;
 }
 
 h1 {
-	text-transform: uppercase;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	text-align: center;
-	font-size: 1.75em;
-	font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: bold;
 }
 
 h2 {
-	font-size: 1.25em;
-	font-weight: bold;
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
 p {
-	margin-top: 45px;
-	padding-left: 15px;
-	padding-right: 15px;
-	text-align: justify;
-	clear: right;
+  margin-top: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
 }
 
 div.section {
-	border: 1px solid black;
-    	background-color: #E0E0E0;
-    	position: relative;
-    	margin: 10px 10px;
+  border: 1px solid black;
+  background-color: #E0E0E0;
+  position: relative;
+  margin: 10px;
 }
 
 .row {
-	width: 100%;
+  width: 100%;
 }
 
 #chicken {
-	background-color: LightPink;
-	position: absolute;
-	top: 0;
-	right: 0;
-	border-left: 1px solid black;
-	border-bottom: 1px solid black;
-	padding: 5px 55px 5px 55px;
+  margin: 0;
+  background-color: LightPink;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px 55px 5px 55px;
 }
 
 #beef {
-	background-color: Red;
-	color: White;
-	position: absolute;
-	top: 0;
-	right: 0;
-	border-left: 1px solid black;
-	border-bottom: 1px solid black;
-	padding: 5px 55px 5px 55px;
+  margin: 0;
+  background-color: Red;
+  color: White;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px 55px 5px 55px;
 }
 
 #sushi {
-	background-color: Yellow;
-	position: absolute;
-	top: 0;
-	right: 0;
-	border-left: 1px solid black;
-	border-bottom: 1px solid black;
-	padding: 5px 55px 5px 55px;
+  margin: 0;
+  background-color: Yellow;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px 55px 5px 55px;
 }
 
 /* Desktop view */
@@ -157,7 +159,7 @@ div.section {
 /* Mobile view */
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-  	float: left;
+    float: left;
   }
   .col-sm-1 {
     width: 8.33%;
