@@ -46,7 +46,10 @@ div.section {
   right: 0;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
-  padding: 5px 55px 5px 55px;
+  width: 160px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #beef {
@@ -58,7 +61,10 @@ div.section {
   right: 0;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
-  padding: 5px 55px 5px 55px;
+  width: 160px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #sushi {
@@ -69,7 +75,10 @@ div.section {
   right: 0;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
-  padding: 5px 55px 5px 55px;
+  width: 160px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /* Desktop view */
